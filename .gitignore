@@ -1,0 +1,8 @@
+/*
+!.gitignore
+
+wp-content/plugins/
+!wp-content/plugins/svarog/
+
+wp-content/themes/
+!wp-content/themes/svarog/

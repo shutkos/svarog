@@ -11,6 +11,7 @@ wp-content/*
 # ignore all mu-plugins, plugins, and themes
 # unless explicitly whitelisted at the end of this file
 wp-content/themes/*
+wp-content/plugins/*
 
 # ignore index.php in plugins folder
 wp-content/plugins/index.php
@@ -32,6 +33,7 @@ Thumbs.db
 *.komodoproject
 *.codekit3
 .idea
+.well-known
 
 # ignore log files and databases
 *.log
@@ -70,3 +72,4 @@ Thumbs.db
 
 # track these themes
 !wp-content/themes/svarog/
+!wp-content/plugins/svarog/
